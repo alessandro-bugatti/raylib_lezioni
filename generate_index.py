@@ -20,6 +20,9 @@ HEADER = """# Raylib – Lezioni di grafica
 
 Questa repository contiene una serie di lezioni progressive
 per imparare la grafica 2D utilizzando la libreria Raylib.
+Ogni lezione spiega un aspetto della libreria, si trovano tutte
+all'interno della cartella `projects`, ed ognuna ha un 
+file che descrive cosa viene fatto in quella lezione.
 
 ## Indice delle lezioni
 
