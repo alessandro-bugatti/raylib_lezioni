@@ -1,0 +1,7 @@
+add_subdirectory(lezione_0001_hello_world)
+add_subdirectory(lezione_0010_disegno_linee)
+add_subdirectory(lezione_0020_rettangoli_colori)
+add_subdirectory(lezione_0030_figure_geometriche)
+add_subdirectory(lezione_0040_caricamento_immagini)
+
+
