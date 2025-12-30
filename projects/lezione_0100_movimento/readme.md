@@ -33,6 +33,15 @@ La funzione `aggiorna` riceverà le due coordinate di posizione per riferimento,
 in modo che possa modificarle, e le due velocità verranno viceversa passate
 per copia, poiché non devono essere modificate. 
 
+```c++
+void aggiorna(float &x, float &y, float vx, float vy) {
+    x += vx;
+    y += vy;
+}
+```
+Come si può vedere, l'aggiornamento non farà altro che sommare alle coordinate
+i valori delle velocità, causando quindi lo spostamento dell'oggetto.
+
 Chiaramente valori maggiori delle velocità porteranno a un effetto 
 visibile nel movimento dell'oggetto, che sarà quindi percepito
 come più veloce.
