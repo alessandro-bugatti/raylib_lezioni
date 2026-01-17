@@ -1,1 +1,1 @@
-Come muovere delle figure geometriche
+Come leggere gli eventi di click del mouse
