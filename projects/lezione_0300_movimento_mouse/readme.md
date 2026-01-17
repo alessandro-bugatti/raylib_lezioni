@@ -7,13 +7,13 @@ Raylib mette a disposizione alcune funzioni semplici per leggere lo stato del mo
 - visualizzare le coordinate vicino al puntatore
 
 Per leggere la posizione del mouse è possibile utilizzare le funzioni `GetMouseX()` e `GetMouseY()`, 
-rispettivamente per la coordinata orizzontale e verticale. Queste funzioni restituiscono dei numeri interi che rappresentano la posizione del mouse nella finestra.
-
-Queste funzioni vanno chiamate nel *main loop*, in modo da sapere la posizione del mouse in ogni istante, per
+rispettivamente per la coordinata orizzontale e verticale. 
+Queste funzioni restituiscono dei numeri interi che rappresentano la posizione del mouse nella finestra e 
+vanno chiamate nel *main loop*, in modo da sapere la posizione del mouse in ogni istante, per
 poterne poi fare quello che si vuole nel programma.
 
-In questo esempio si intende disegnare il testo con le coordinate leggermente sopra il puntatore del mouse, 
-in modo da poterle visualizzare a schermo.
+In questo esempio si intende disegnare un testo contenente le coordinate del mouse leggermente sopra il suo puntatore, 
+in modo da poterle visualizzare a schermo senza che si sovrappongano alla freccia del puntatore.
 
 Per far questo verrà utilizzata la funzione `DrawText`, stando però attenti al fatto che questa funzione
 richiede una stringa da disegnare, mentre le coordinate sono numeri interi.
@@ -32,6 +32,7 @@ stringa `coordinate` in pixel.
 ```c++
 int l = MeasureText(coordinate.c_str(), 20);
 ```
+
 Il valore contenuto in `l` sarà quindi la lunghezza in pixel della stringa contenuta il `coordinate` quando questa
 stringa verrà visualizzata con dimensione 20.
 
