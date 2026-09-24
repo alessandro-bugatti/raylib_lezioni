@@ -15,5 +15,6 @@ file che descrive cosa viene fatto in quella lezione.
 - **lezione_0040_caricamento_immagini**:    Come caricare un'immagine da file e mostrarla a schermo
 - **lezione_0100_movimento**:    Come muovere delle figure geometriche
 - **lezione_0200_testo**:    Come visualizzare del testo usando il font standard di Raylib
+- **lezione_0210_testo_fonts**:    Come caricare e visualizzare testo usando font TrueType
 - **lezione_0300_movimento_mouse**:    Come leggere la posizione del mouse
 - **lezione_0310_click_mouse**:    Come leggere gli eventi di click del mouse
