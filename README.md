@@ -18,3 +18,4 @@ file che descrive cosa viene fatto in quella lezione.
 - **lezione_0210_testo_fonts**:    Come caricare e visualizzare testo usando font TrueType
 - **lezione_0300_movimento_mouse**:    Come leggere la posizione del mouse
 - **lezione_0310_click_mouse**:    Come leggere gli eventi di click del mouse
+- **lezione_0400_tasti**:    Come leggere la pressione continua dei tasti freccia
