@@ -1,0 +1,1 @@
+Come visualizzare del testo usando il font standard di Raylib

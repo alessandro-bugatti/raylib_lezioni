@@ -4,7 +4,7 @@ add_subdirectory(lezione_0020_rettangoli_colori)
 add_subdirectory(lezione_0030_figure_geometriche)
 add_subdirectory(lezione_0040_caricamento_immagini)
 add_subdirectory(lezione_0100_movimento)
+add_subdirectory(lezione_0200_testo)
 add_subdirectory(lezione_0300_movimento_mouse)
 add_subdirectory(lezione_0310_click_mouse)
-
 
